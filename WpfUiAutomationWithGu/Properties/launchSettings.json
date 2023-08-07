@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WpfUiAutomationWithGu": {
+      "commandName": "Project",
+      "commandLineArgs": "MainWindow"
+    }
+  }
+}
