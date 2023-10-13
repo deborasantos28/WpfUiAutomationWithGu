@@ -1,11 +1,18 @@
 using Gu.Wpf.UiAutomation;
-using System.Printing;
+using Microsoft.Extensions.FileSystemGlobbing;
+using Microsoft.Extensions.FileSystemGlobbing.Abstractions;
+using System.Diagnostics;
 
 namespace GuAutomationTests
 {
     public class AutomationTests
     {
-        private const string ExeFileName = @"C:\Users\DeboraSantos\source\repos\DebProjects\WpfAutomationWithFlaUI\WpfAutomationWithFlaUI\bin\Debug\net7.0-windows\WpfAutomationWithFlaUI.exe";
+        /*
+         Please insert your fullpath to the exe file in the ExeFileName. 
+         This app is only a prototype, therefore it does not apply the most
+         performant way to display a path.
+         */
+        public string ExeFileName = @"C:\WpfUiAutomationWithGu.exe";
 
         private const string WindowName = "MainWindow";
 
